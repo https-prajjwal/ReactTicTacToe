@@ -1,0 +1,82 @@
+.board-row{
+  display:flex;
+}
+
+.h{
+  text-align: center;
+}
+
+.outer-board{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square{
+  width: 72px;
+  height:72px;
+  margin: 0;
+  background-color: black;
+  color:white;
+  font-size: 28px;
+}
+
+.btn{
+  margin: 2px;
+  width:128px;
+  height: 32px;
+  background-color: black;
+  color:white;
+  font-size: 12px;
+  
+}
+.intro{
+  text-align: center;
+  margin-top: 32px;
+  font-weight: bold;
+}
+
+.intro-in{
+  padding-bottom: 2px;
+}
+
+.intro-in1{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.intro-inside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.status{
+  margin-top: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ol{
+  list-style: none;
+  padding: 0;
+  margin:10px 0px 0px 0px;
+}
+
+.game-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  margin:2px;
+}
+
+.desc{
+  text-align: center;
+  margin : 16px
+}
